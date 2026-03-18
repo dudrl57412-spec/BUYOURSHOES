@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  paddin/g: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+body{
+    background: url(../images/KakaoTalk_20260318_100541335.png) no-repeat right top ;
+    /* ↓배경이미지 고정 코드 */
+    background-attachment: fixed;
+}
+div{
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    border: 20px solid rgba(204,204,204,0.4);
+    margin-bottom: 20px;
+    background: url(../images/KakaoTalk_20260318_100541335_01.png) no-repeat right top ;
+}
+#bg1{
+    /* 배경이미지 적용 범위를 조절 */
+    background-origin: content-box;
+}
+#bg2{
+    /* 배경이미지 적용 범위를 패딩까지 표시 */
+    background-origin: padding-box;
+}
+#bg3{
+    /* 배경이미지 적용 범위를 테두리까지 표시 */
+    background-origin: border-box;
+}
