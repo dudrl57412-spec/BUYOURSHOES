@@ -47,18 +47,18 @@ a {
   height: 40px;
   background-color: white;
 }
-.part{
-    position: relative;
-    top: -26px;
+.part {
+  position: relative;
+  top: -26px;
 }
 #pt1 {
-    width: 460px;
+  width: 460px;
   background-color: rgb(250, 201, 209);
   padding: 20px;
   margin: 0 auto;
 }
 #pt2 {
-    width: 460px;
+  width: 460px;
   background-color: rgb(250, 201, 209);
   padding: 20px;
   margin-top: 15px;
@@ -69,18 +69,18 @@ a {
   height: 389px;
   background-color: rgb(221, 223, 223);
 }
-.area3{
-    height: 500px;
-    background-color: rgb(0 15 91);
+.area3 {
+  height: 500px;
+  background-color: rgb(0 15 91);
 }
 .contact-container {
   max-width: 600px;
   background-color: #ffffff; /* 1. 흰색 배경 추가 */
-  padding: 15px;             /* 2. 안쪽 여백(패딩) 추가 */
-  margin:auto;      
-  box-sizing: border-box;    /* 패딩 때문에 크기 안 커지게 고정 */
+  padding: 30px; /* 2. 안쪽 여백(패딩) 추가 */
+  margin: auto;
+  box-sizing: border-box; /* 패딩 때문에 크기 안 커지게 고정 */
   font-family: Arial, sans-serif;
-  position: relative; 
+  position: relative;
   top: 40px;
 }
 
@@ -96,7 +96,7 @@ h2 {
 
 .form-group label {
   margin-bottom: 8px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 input[type="text"],
@@ -125,10 +125,9 @@ textarea {
   justify-content: space-between; /* 구독은 왼쪽, 버튼은 오른쪽 */
   align-items: center;
 }
-
-.subscribe {
-  font-weight: bold;
-}
+.subscribe{display: flex;
+    align-items: center;
+    gap: 7px;}
 
 .send-btn {
   background-color: #8a2be2; /* 보라색 버튼 */
